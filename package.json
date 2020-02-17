@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bbcreation/bootstrap-datetimepicker.git"
+    "url": "https://github.com/bbcreation/datetimepicker.git"
   },
   "version": "4.17.47"
 }
