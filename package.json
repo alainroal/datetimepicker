@@ -13,19 +13,6 @@
     "moment-timezone": "^0.4.0"
   },
   "description": "Fork of date/time picker component designed to work with Tailwind CSS and Momentjs",
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-contrib-connect": "^1.0.1",
-    "grunt-contrib-jasmine": "^1.0.3",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-env": "^0.4.4",
-    "grunt-jscs": "latest",
-    "grunt-nuget": "^0.1.5",
-    "grunt-string-replace": "latest",
-    "load-grunt-tasks": "latest"
-  },
   "keywords": [
     "datepicker",
     "datetimepicker",
