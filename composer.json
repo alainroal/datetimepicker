@@ -1,13 +1,16 @@
 {
-  "name": "eonasdan/bootstrap-datetimepicker",
+  "name": "bbcreation/datetimepicker",
   "type": "component",
   "version": "4.17.47",
-  "description": "Date/time picker widget based on twitter bootstrap",
+  "description": "Fork of date/time picker component designed to work with Tailwind CSS and Momentjs",
   "keywords": [
-    "bootstrap",
-    "datetimepicker"
+    "datepicker",
+    "datetimepicker",
+    "timepicker",
+    "moment",
+    "laravel",
+    "tailwind"
   ],
-  "homepage": "http://eonasdan.github.io/bootstrap-datetimepicker/",
   "license": "MIT",
   "require": {
     "robloach/component-installer": "*",
@@ -16,12 +19,9 @@
   },
   "extra": {
     "component": {
-      "scripts": [
-        "src/js/bootstrap-datetimepicker.js"
-      ],
       "files": [
         "build/js/datetimepicker.min.js",
-        "build/css/bootstrap-datetimepicker.min.css"
+        "build/css/datetimepicker.css"
       ]
     }
   }
