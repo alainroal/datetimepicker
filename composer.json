@@ -12,18 +12,5 @@
     "tailwind"
   ],
   "license": "MIT",
-  "require": {
-    "robloach/component-installer": "*",
-    "components/jquery": ">=1.9.1",
-    "moment/moment": ">=2.10.5"
-  },
-  "extra": {
-    "component": {
-      "files": [
-        "build/js/datetimepicker.min.js",
-        "build/css/datetimepicker.css"
-      ]
-    }
-  },
   "minimum-stability": "stable"
 }
