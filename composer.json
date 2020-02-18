@@ -1,7 +1,7 @@
 {
   "name": "bbcreation/datetimepicker",
   "type": "component",
-  "version": "4.17.47",
+  "version": "1.0",
   "description": "Fork of date/time picker component designed to work with Tailwind CSS and Momentjs",
   "keywords": [
     "datepicker",
@@ -12,5 +12,9 @@
     "tailwind"
   ],
   "license": "MIT",
+  "require": {
+    "components/jquery": ">=1.9.1",
+    "moment/moment": ">=2.10.5"
+  },
   "minimum-stability": "stable"
 }
