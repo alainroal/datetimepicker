@@ -18,10 +18,14 @@ Script:
     
 HTML:
 
-    <div style="position: relative;">
-        <label>
-            <div wire:ignore>
-                <input  type="text" class="form-input block w-full text-xs" placeholder="{{ __('Pay Date') }}"  id="datetimepicker">
-            </div>
-        </label>
-    </div>
+    <label>
+        <div wire:ignore>
+            <input  type="text" class="form-input block w-full text-xs" placeholder="{{ __('Pay Date') }}"  id="datetimepicker">
+        </div>
+    </label>
+    
+INFO:
+
+Enter the code between and add height so that nothing obstructs:
+
+    <div style="position: relative; height: 90vh;></div>
